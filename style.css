@@ -1,0 +1,81 @@
+header{
+	background:#a7c957;
+	padding: 20px 0;
+}
+body {
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3183079-azul-claro-fundo-abstrato-brilhante-vetor.jpg)
+}
+
+.caixacentral {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 125px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #b5179e;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family: fantasy;
+}
+
+nav a:hover{
+	color: #b5179e ;
+	text-decoration: underline;
+	font-family: fantasy;
+}
+
+.gênero{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.gênero li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	border: 4px inset #b5179e;
+	border-radius: 10px;
+}
+
+.gênero li:hover{
+		border-color: #b5179e;
+}
+
+.gênero li:active{
+	border-color:#b5179e ;
+}
+
+.gênero li:hover h2{
+	font-size:40px
+}
+
+.gênero h2{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.gênero-escolhido{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: serif;
+}

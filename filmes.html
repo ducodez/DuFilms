@@ -1,0 +1,252 @@
+<meta charset="utf-8">
+<body bgcolor="e0bcdd">
+<center>
+<script>
+
+	window.alert(`BEM-VINDO AO SITE DUFILMS `);
+
+//VARIAVEIS
+	var nome = window.prompt(`Qual seu nome?`);
+	
+	var film = window.prompt(`QUE TIPO DE FILME ESTÁ PROCURANDO? \n\n 01- Terror \n\n 02- Comédia \n\n 03- Romance `);
+	
+	var cac = window.prompt(`O QUE VOCÊ GOSTARIA DE VER NESSE FILME? \n\n 01- Personagens bonitos \n\n 02- Um bom Plot Twist \n\n 03- História emocionante \n\n`);
+	
+	window.alert(`AQUI ESTÃO AS RECOMENDAÇÕES DE FILMES PARA VOCÊ \N\N COM BASE NO QUE FOI PEDIDO ${film} - ${cac}`);
+	
+	// fim variavies
+
+	switch(film) {
+//TERROR	
+		case "terror":
+		case "TERROR":
+		case "Terror":
+		case "01":
+//peronagens
+
+		if (cac == "Personagens bonitos" || cac == "01" || cac == "PERSONAGENS BONITOS") {
+			document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+			document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+			document.write(`<H3> AS PREFERÊNCIAS SÃO: TERROR COM PERSONAGENS BONITOS </H3> <BR> <BR> <HR>`);
+			document.write(`<H3> 1º Sugestão: GET OUT/CORRA! <BR> </H3>`);
+			document.write(`<img src="https://m.media-amazon.com/images/I/61RsJbAFxbS._AC_SX679_.jpg"> <br> <br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+			document.write(` <h3> Historia emocionante: ⭐⭐⭐⭐⭐</h3> <br>`);
+			document.write(`<h3> Filme ganhador de 4 oscars em 2018! Melhor Roteiro original, Melhor Filme, Melhor ator e Melhor Direção </h3><br><br> `);
+//filme1
+			document.write(`<H3> 2ª Sugestão: RUA DO MEDO <BR> </H3>`);
+			document.write(`<img src="https://www.depoisdasessao.com.br/wp-content/uploads/2021/07/rua-do-medo-trilogia-capa.png"><br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐ </h3> <br> `);
+			document.write(`<h3> Historia emocionante: ⭐⭐ </h3><br>`);
+			document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//plottwist
+		} else if (cac == "plot twist" || cac == "Plot twist" || cac == "PLOT TWIST" || cac == "02") {
+					document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: TERROR COM UM BOM PLOT TWIST </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: TEM ALGUÉM NA SUA CASA <BR> </H3>`);
+					document.write(`<img src="https://br.web.img3.acsta.net/pictures/21/09/13/20/53/3649050.jpg"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: CASAMENTO SANGRENTO  <BR> </H3>`);
+					document.write(`<img src="https://media.fstatic.com/02gOdRXdHo7PCKrxQdiceMg0qNw=/290x478/smart/media/movies/covers/2019/06/ready_or_not.jpg"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//Historia
+
+
+			} else if (cac == "Historia emocionante" || cac == "HISTORIA EMOCIONANTE" || cac == "historia emocionante" || cac == "03") {
+
+				document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: TERROR COM UMA HISTÓRIA EMOCIONANTE </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: HALLOWEEN <BR> </H3>`);
+					document.write(`<img src="https://upload.wikimedia.org/wikipedia/pt/8/87/Halloween_cover.jpg"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: A HORA DO PESADELO <BR> </H3>`);
+					document.write(`<img src="https://br.web.img3.acsta.net/pictures/15/03/10/16/48/336112.jpg"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+	
+
+				} break
+//COMÉDIA
+
+
+		case "comédia":
+		case "Comédia":
+		case "COMÉDIA":
+		case "02":
+		case "comedia":
+		case "COMEDIA":
+		case "Comedia":
+
+//PERONAGENS
+
+		if (cac == "Personagens bonitos" || cac == "01" || cac == "PERSONAGENS BONITOS") {
+			document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+			document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+			document.write(`<H3> AS PREFERÊNCIAS SÃO: COMÉDIA COM PERSONAGENS BONITOS </H3> <BR> <BR> <HR>`);
+			document.write(`<H3> 1º Sugestão: MAMMA MIA  <BR> </H3>`);
+			document.write(`<img src="https://media.fstatic.com/PGi979KXcjQXzEaDBtU-TRvVzVU=/290x478/smart/media/movies/covers/2018/04/mamma-mia-movie-cover.jpg"> <br> <br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐⭐ </h3> <br> `);
+			document.write(` <h3> História emocionante: ⭐⭐⭐⭐⭐</h3> <br>`);
+			document.write(`<h3>  </h3><br><br> `);
+//filme1
+			document.write(`<H3> 2ª Sugestão: CLUBE DOS CINCO <BR> </H3>`);
+			document.write(`<img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/593/401/products/c1493-poster-the-breakfast-club-041-b6a8922f5c4f19b71b15109465060618-1024-1024.jpg"><br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐⭐⭐ </h3> <br> `);
+			document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3><br>`);
+			document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//plottwist
+		} else if (cac == "plot twist" || cac == "Plot twist" || cac == "PLOT TWIST" || cac == "02") {
+					document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: COMÉDIA COM UM BOM PLOT TWIST </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: GENTE GRANDE <BR> </H3>`);
+					document.write(`<img src="https://br.web.img3.acsta.net/pictures/210/299/21029996_20130821205722213.jpg"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: TREINANDO O PAPAI <BR> </H3>`);
+					document.write(`<img src="https://upload.wikimedia.org/wikipedia/pt/a/a1/Treinando-o-papai.jpg"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//Historia
+
+
+			} else if (cac == "Historia emocionante" || cac == "HISTORIA EMOCIONANTE" || cac == "historia emocionante" || cac == "03") {
+
+				document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: COMÉDIA COM UMA HISTÓRIA EMOCIONANTE </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: ERA UMA VEZ EM HOLLYWOOD <BR> </H3>`);
+					document.write(`<img src="https://upload.wikimedia.org/wikipedia/pt/a/a6/Once_Upon_a_Time_in_Hollywood_poster.png"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> Historia emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: PARASITA  <BR> </H3>`);
+					document.write(`<img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/be/Parasite_poster.jpg/250px-Parasite_poster.jpg"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme ganhou 6 oscars em 2020!!! Melhor filme, Melhor direção, Melhor Filme Internacional, Melhor roteiro Original, Melhor montagem e melhor direção de arte </h3> <br> <br> `);
+				} break
+
+
+	
+		case "romance":
+		case "ROMANCE":
+		case "Romance":
+		case "03":
+//filme1
+
+		if (cac == "Personagens bonitos" || cac == "01" || cac == "PERSONAGENS BONITOS") {
+
+			document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+			document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+			document.write(`<H3> AS PREFERÊNCIAS SÃO: TERROR COM PERSONAGENS BONITOS </H3> <BR> <BR> <HR>`);
+
+			document.write(`<H3> 1º Sugestão: SAGA CREPUSCULO <BR> </H3>`);
+			document.write(`<img src="https://i.pinimg.com/originals/bc/82/49/bc82490a9aee9dfba3b03059c1e164ee.jpg"> <br> <br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+			document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+			document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+
+			document.write(`<H3> 2ª Sugestão: 500 DIAS COM ELA <BR> </H3>`);
+			document.write(`<img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/30/15/20028674.jpg"><br>`);
+			document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+			document.write(`<h3> Plot Twist: ⭐⭐⭐⭐ </h3> <br> `);
+			document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3><br>`);
+			document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//plottwist
+			} else if (cac == "plot twist" || cac == "Plot twist" || cac == "PLOT TWIST" || cac == "02") {
+					document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: ROMANCE COM UM BOM PLOT TWIST </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: NASCE UMA ESTRELA <BR> </H3>`);
+					document.write(`<img src="https://cdn.fstatic.com/media/movies/covers/2018/10/A-Star-Is-Born-poster-2.jpg"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme NÃO ganhou nenhum oscar!</h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: A ÚLTIMA MÚSICA  <BR> </H3>`);
+					document.write(`<img src="https://br.web.img2.acsta.net/medias/nmedia/18/87/32/17/19874294.jpg"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme não ganhou nenhum oscar </h3> <br> <br> `);
+//filme2
+//Historia
+
+
+				} else if (cac == "Historia emocionante" || cac == "HISTORIA EMOCIONANTE" || cac == "historia emocionante" || cac == "03") {
+
+				document.write(`<H1> DUFILMS RECOMENDA </H1> <br> <br> <br> <hr>`);
+					document.write(`<H1> BEM-VINDO ${nome}!!! </H1>`);
+					document.write(`<H3> AS PREFERÊNCIAS SÃO: ROMANCE COM UMA HISTÓRIA EMOCIONANTE </H3> <BR> <BR> <HR>`);
+					document.write(`<H3> 1º Sugestão: LA LA LAND <BR> </H3>`);
+					document.write(`<img src="https://img.elo7.com.br/product/zoom/265F027/big-poster-filme-la-la-land-lo01-tamanho-90x60-cm-poster-de-filme.jpg"> <br> <br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐</h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme ganhou 5 oscar! MELHOR ATRIZ, MELHOR DIREÇÃO, MELHOR FOTOGRAFIA, MELHOR TRILHA SONORA, MELHOR DIREÇÃO DE ARTE. </h3> <br> <br>`);
+//filme1
+					document.write(`<H3> 2ª Sugestão: MOONLIGHT <BR> </H3>`);
+					document.write(`<img src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Moonlight_%28filme%29.png"> <br><br>`);
+					document.write(`<h3> Personagens Bonitos: ⭐⭐⭐⭐⭐ <br> </h3>`);
+					document.write(`<h3> Plot Twist: ⭐⭐⭐⭐⭐ </h3> <br> `);
+					document.write(`<h3> História emocionante: ⭐⭐⭐⭐⭐ </h3> <br>`);
+					document.write(`<h3> Filme ganhou 8 oscars! Melhor filme, melhor ator coadjuvante, melhor roteiro adaptado, melhor atriz coadjuvante, melhor direção, melhor trilha sonora, melhor fotografia e melhor montagem </h3> <br> <br> `);
+				} break
+			
+			default: 
+			document.write(`<H1> ESTE GENÊRO/FILME NÃO FAZEM PARTE DA NOSSA RECOMENDAÇÃO, EM BREVE INCLUIREMOS! </H1>`);
+			break
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</center>

@@ -1,0 +1,43 @@
+body{
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3183079-azul-claro-fundo-abstrato-brilhante-vetor.jpg)
+}
+h1{
+	text-align: center;
+	color: #3a0ca3;
+}
+
+p{
+	color: #3a0ca3;
+	font-size: 30px;
+}
+
+.terror{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.terror li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 4px inset #560bad;
+	border-radius: 10px;
+}
+
+.terror li:hover{
+		border-color: #560bad;
+}
+
+.terror li:active{
+	border-color:#560bad ;
+}
+
+.gênero-terror{
+	font-size: 24px;
+	font-weight: bold;
+}
